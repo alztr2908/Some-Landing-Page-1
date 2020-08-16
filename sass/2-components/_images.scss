@@ -1,0 +1,19 @@
+$img-size: 10rem;
+
+
+.best-seller-list {
+  img {
+    height: $img-size + 5rem;
+    width: $img-size + 5rem;
+  }
+}
+
+
+i {
+  font-size: $img-size ;
+  color: black;
+  padding-bottom: .5em;
+  text-align: center;
+}
+
+

@@ -1,0 +1,24 @@
+header {
+  button {
+    width: 314px;
+    height: 71px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+
+    background-color: $baby-blue;
+
+    margin: 1.5em 0;
+  }
+
+  i {
+    font-size: 2rem;
+    color: rgb(189, 189, 85);
+    padding-right: .5em;
+  }
+
+  button:hover {
+    background-color: $dark-blue;
+  }
+}
+

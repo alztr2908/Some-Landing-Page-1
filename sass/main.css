@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  height: 567px;
+  padding: 2em 104px;
+}
+
+.cupcake-process {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(29.69%, rgba(204, 149, 61, 0.95)), color-stop(86.98%, rgba(169, 95, 34, 0.95)));
+  background: linear-gradient(180deg, rgba(204, 149, 61, 0.95) 29.69%, rgba(169, 95, 34, 0.95) 86.98%);
+}
+
+.cupcake-best-sellers {
+  background-color: #FF6694;
+}
+
+header button {
+  width: 314px;
+  height: 71px;
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #A4D2DE;
+  margin: 1.5em 0;
+}
+
+header i {
+  font-size: 2rem;
+  color: #bdbd55;
+  padding-right: .5em;
+}
+
+header button:hover {
+  background-color: #35AECD;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: black;
+}
+
+.burger {
+  margin-right: 10vh;
+  cursor: pointer;
+}
+
+.best-seller-list img {
+  height: 15rem;
+  width: 15rem;
+}
+
+i {
+  font-size: 10rem;
+  color: black;
+  padding-bottom: .5em;
+  text-align: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.logo i {
+  font-size: 56px;
+  position: relative;
+  top: 18%;
+}
+
+.logo h1 {
+  padding-left: .2em;
+  font-size: 56px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-list a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding-left: 2.8em;
+  color: #000;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: black;
+}
+
+.burger {
+  display: none;
+  position: relative;
+  left: 92%;
+  bottom: 56px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .nav-list {
+    display: none;
+  }
+  .burger {
+    display: inline-block;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: 7vh;
+    background-color: #8b2727;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    transition: -webkit-transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+    z-index: 1;
+  }
+  .nav-list li {
+    margin: 2em 0;
+  }
+  .nav-list a {
+    color: #fff;
+    padding-left: 0;
+    font-size: 2rem;
+  }
+  .nav-active {
+    z-index: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+header {
+  padding-top: 4em;
+  padding-left: 104px;
+}
+
+header h1 {
+  font-size: 3.125rem;
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.first-h1::after {
+  content: 'SUPER';
+  position: relative;
+  right: 3em;
+  bottom: 3px;
+}
+
+.second-h1::after {
+  content: 'PLEASURE';
+  position: relative;
+  right: 4.78em;
+  bottom: 3px;
+}
+
+.first-h1::after,
+.second-h1::after {
+  color: #35AECD;
+}
+
+section {
+  color: #fff;
+}
+
+section h1 {
+  font-size: 2.7rem;
+}
+
+section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 4em;
+}
+
+section ul p {
+  text-align: center;
+}
+
+.process-list li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.cupcake-best-sellers p {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  background-color: #A4D2DE;
+}
+/*# sourceMappingURL=main.css.map */

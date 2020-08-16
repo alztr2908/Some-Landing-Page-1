@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack;
+}
+
+// .banner {
+//   background-image: url(https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+//   background-repeat: no-repeat;
+//   background-size: 100% $background-height;
+
+//   height: 800px;
+// }
+
+section {
+  height: 567px;
+  padding: 2em $overall-padding;
+}
+
+.cupcake-process {
+  background: linear-gradient(180deg, rgba(204, 149, 61, 0.95) 29.69%, rgba(169, 95, 34, 0.95) 86.98%);
+}
+
+.cupcake-best-sellers {
+  background-color: #FF6694;
+}
